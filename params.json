@@ -1,0 +1,27 @@
+{
+  "session_start": "19:20:00",
+  "session_length_min": 15,
+  "use_coinbase_for": [],
+  "range_floor": true,
+  "paused": [],
+  "std_edge_mult": 0.6,
+  "std_take_mult": 1.2,
+  "config": {
+    "TRADES": {
+      "limit": 20,
+      "size": 3,
+      "min_edge_ticks": 3,
+      "skew_ticks_per_unit": 0.8
+    },
+    "RANGE": {
+      "limit": 10,
+      "size": 3,
+      "edge_pct": 0.025,
+      "skew_ticks_per_unit": 0.4,
+      "take_edge_pct": 0.1
+    }
+  },
+  "range_min": 0,
+  "jump_pct": 0.03,
+  "jump_pause_sec": 30
+}

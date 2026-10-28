@@ -1,0 +1,5 @@
+__pycache__/
+creds*.py
+!creds.example.py
+base_bot.py
+models.py
